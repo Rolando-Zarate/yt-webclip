@@ -11,6 +11,8 @@
 			        window.location.replace("https://m.youtube.com/");
 			    },5000);
 			}
+			var img = document.getElementByTagName("<img>")
+			img.onload = act;
 		</script>
 		<style>
 			body{
@@ -30,6 +32,6 @@
     <link rel="apple-touch-icon" size="192x192" href="índice.png">
 	</head>
 	<body>
-		<img src="yt.png" width="30%" onload="act()">
+		<img src="yt.png">
 	</body>
 </html>
